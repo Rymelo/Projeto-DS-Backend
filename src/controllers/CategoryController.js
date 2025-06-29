@@ -58,7 +58,6 @@ class CategoryController {
     }
 
     async consultarPorId(request, response) {
-
         try {
             const id = request.params.id;
             const data = await CategoryModel.findByPk(id, { attributes: ['id', 'name', 'slug', 'use_in_menu'] });

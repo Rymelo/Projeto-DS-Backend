@@ -23,7 +23,6 @@ class UserController {
     }
 
     async consultarPorId(request, response) {
-
         try {
             const id = request.params.id;
             const data = await UserModel.findByPk(id, { attributes: ['id', 'firstname', 'surname', 'email'] });

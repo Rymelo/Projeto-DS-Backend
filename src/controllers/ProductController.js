@@ -164,7 +164,6 @@ class ProductController {
     }
 
     async consultarPorId(request, response) {
-
         try {
             const id = request.params.id;
             const data = await ProductModel.findByPk(id, {
