@@ -23,11 +23,11 @@ class CategoryController {
             // Faz a busca de acordo com o limit (qtd itens por pagina) e page (qtd paginas)
             const data = await CategoryModel.findAll({
                 where: menucondition,
-                attributes: fieldArray ? fieldArray : ['id','name','slug','use_in_menu'],
+                attributes: fieldArray ? fieldArray : ['id', 'name', 'slug', 'use_in_menu'],
                 limit: Limit === -1 ? undefined : Limit,
                 offset: Limit === -1 ? 0 : (Page - 1) * Limit
             });
-            
+
             // propriedade limit define quantas categorias devem aparecer
             // offset define quais serão os itens em cada página através de uma fórmula que identifica em que página o usuário está, e quais os respectivos itens dessa página
 
@@ -49,7 +49,6 @@ class CategoryController {
             return response.status(200).json(resposta)
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -61,7 +60,6 @@ class CategoryController {
     async consultarPorId(request, response) {
 
         try {
-
             const id = request.params.id;
             const data = await CategoryModel.findByPk(id, { attributes: ['id', 'name', 'slug', 'use_in_menu'] });
 
@@ -72,7 +70,6 @@ class CategoryController {
             return response.json(data)
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -84,8 +81,7 @@ class CategoryController {
 
     async criar(request, response) {
         try {
-
-            const {name, slug, use_in_menu } = request.body;
+            const { name, slug, use_in_menu } = request.body;
 
             // Validação de name já existente
             const categorynameverify = await CategoryModel.findOne({
@@ -109,11 +105,10 @@ class CategoryController {
                 return response.status(400).json({ message: "O slug da categoria já está cadastrado." })
             }
 
-            await CategoryModel.create({name, slug, use_in_menu });
+            await CategoryModel.create({ name, slug, use_in_menu });
             return response.status(201).json({ message: "Categoria cadastrada com sucesso." });
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -143,7 +138,6 @@ class CategoryController {
             return response.status(204).send();
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -167,7 +161,6 @@ class CategoryController {
             return response.status(204).send();
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message

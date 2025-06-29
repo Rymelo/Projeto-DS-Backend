@@ -4,7 +4,6 @@ class UserController {
 
     async listar(request, response) {
         try {
-
             const data = await UserModel.findAll({ attributes: ['id', 'firstname', 'surname', 'email'] });
 
             // Validação para encontrar usuários
@@ -15,7 +14,6 @@ class UserController {
             return response.status(200).json(data)
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -27,7 +25,6 @@ class UserController {
     async consultarPorId(request, response) {
 
         try {
-
             const id = request.params.id;
             const data = await UserModel.findByPk(id, { attributes: ['id', 'firstname', 'surname', 'email'] });
 
@@ -38,7 +35,6 @@ class UserController {
             return response.json(data)
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -50,7 +46,6 @@ class UserController {
 
     async criar(request, response) {
         try {
-
             const {firstname, surname, email, password, confirmPassword, } = request.body;
 
             // Validação de usuário já existente
@@ -90,7 +85,6 @@ class UserController {
             return response.status(201).json({ message: "Usuário cadastrado com sucesso." });
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -120,7 +114,6 @@ class UserController {
             return response.status(204).send();
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -144,7 +137,6 @@ class UserController {
             return response.status(204).send();
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message

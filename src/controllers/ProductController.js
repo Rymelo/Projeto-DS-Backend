@@ -155,7 +155,6 @@ class ProductController {
             return response.status(200).json(resposta)
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -167,7 +166,6 @@ class ProductController {
     async consultarPorId(request, response) {
 
         try {
-
             const id = request.params.id;
             const data = await ProductModel.findByPk(id, {
                 attributes: ['id', 'enabled', 'name', 'slug', 'stock', 'description', 'price', 'price_with_discount'],
@@ -229,7 +227,6 @@ class ProductController {
             return response.json(responsebody)
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -329,7 +326,6 @@ class ProductController {
             return response.status(201).json({ message: "Produto cadastrado com sucesso." });
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -424,7 +420,6 @@ class ProductController {
             return response.status(204).send();
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
@@ -455,7 +450,6 @@ class ProductController {
             return response.status(204).send();
 
         } catch (error) {
-
             return response.status(500).json({
                 message: 'Erro interno do servidor.',
                 error: error.message
