@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10",
+    "sequelize": "^6.37.7"
+  },
+  "name": "digital-store-backend",
+  "version": "1.0.0",
+  "description": "Projeto de back-end para a digital store",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Ryan Mendes",
+  "license": "ISC"
+}
