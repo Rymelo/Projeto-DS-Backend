@@ -140,6 +140,12 @@ project-root/
 
 </details>
 
+## Documentação da API
+A documentação foi feita no POSTMAN, com as requisições estabelecidas na documentação:
+  ```bash
+  https://documenter.getpostman.com/view/46316809/2sB34ZqPQ6
+  ```
+
 ## Créditos
 
 ### Geração Tech
