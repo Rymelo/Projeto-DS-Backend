@@ -7,6 +7,6 @@ require('../models/ProductOptionsModel');
 require('../models/CategoryModel');
 require('../models/ProductCategoryModel');
 
-connection.sync({alter: true});
+connection.sync({force: true});
 
 
