@@ -7,6 +7,7 @@ Este projeto foi desenvolvido para fins de avaliação e assimilação de conhec
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Instruções de instalação](#Instruções-de-instalação)
+- [Documentação da API](#documentação-da-api)
 - [Créditos](#créditos)
 
 ## Sobre
