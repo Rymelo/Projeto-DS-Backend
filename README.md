@@ -11,7 +11,7 @@ Este projeto foi desenvolvido para fins de avaliação e assimilação de conhec
 
 ## Sobre
 Essa é a segunda etapa do projeto de um ecommerce interativo, dessa vez estabelecendo as conexões à parte back-end do projeto, de forma a cumprir com os critérios da [documentação](#créditos) através da aplicação dos conhecimentos adquiridos.
-A primeira etapa (frontend) pode ser conferida [aqui](https://github.com/Rymelo/Projeto-DS-Frontend)
+A primeira etapa (frontend) pode ser conferida [aqui](https://github.com/Rymelo/Projeto-DS-Frontend).
 
 ## Ferramentas utilizadas
 - **Node.js** para fornecer a possibilidade de executar JS em um servidor
@@ -61,13 +61,13 @@ project-root/
 
 2.  **Configure o banco de dados:**
     * Crie um novo banco de dados mySQL chamado `DSBackend` com as seguintes especificações:
-        ```
-        DB_USER=root
-        DB_PASSWORD=admin
-        DB_HOST=localhost
-        DB_PORT=3306
-        DB_NAME=DSBackend
-        ```
+    ```
+    DB_USER=root
+    DB_PASSWORD=admin
+    DB_HOST=localhost
+    DB_PORT=3306
+    DB_NAME=DSBackend
+    ```
     * O arquivo connections na pasta config mostra toda a configuração necessária
 
 3.  **Entre na pasta do projeto:**
@@ -99,6 +99,44 @@ project-root/
    * Ferramentas como [postman](https://www.postman.com/) ou [insomnia](https://insomnia.rest/)
    * O projeto foi feito conforme a documentação, então as configurações das rotas são as mesmas, estando todas detalhadas [aqui](https://github.com/digitalcollegebr/projeto-backend)
 
+
+</details>
+
+<details>
+  <summary><strong>Guia de uso da aplicação</strong></summary>
+  Na aplicação, todas as rotas exceto GET e CREATE de User utilizam JWT. Portanto, para o teste total da aplicação é necessário:
+  
+1.  **Criar o usuário:**
+    * Abra a ferramenta de teste de API e crie um http request do tipo post
+    * Insira a rota http://localhost:3000/v1/user na URL Preview
+    * Crie o usuário conforme o payload em json:
+
+    ```json
+    {
+      "firstname": "user firstname",
+      "surname": "user surname",
+      "email": "user@mail.com",
+      "password": "123@123",
+      "confirmPassword": "123@123",
+    }  
+    ```
+
+2.  **Autenticar TOKEN:**
+    * Crie um http request do tipo post
+    * Insira a rota http://localhost:3000/v1/user/token na URL Preview
+    * Faça o login conforme as informações do usuário criado, com o payload em json:
+
+    ```json
+    {
+      "email": "user@mail.com",
+      "password": "123@123",
+    }  
+    ```
+    
+    * Será gerado um token como resposta
+    * Para todas as outras rotas que serão criadas, basta inserir nos headers:
+    * Authorization: bearer 'inserir-token-gerado'
+    * Dessa forma a api pode ser usada livremente
 
 </details>
 
