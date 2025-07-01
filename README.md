@@ -7,11 +7,11 @@ Este projeto foi desenvolvido para fins de avaliação e assimilação de conhec
 ## 📑 Índice
 
 - 🔍 [Sobre](#sobre)
-- 🛠️ [Ferramentas utilizadas](#ferramentas-utilizadas)
-- 📁 [Estrutura do Projeto](#estrutura-do-projeto)
-- 🚀 [Instruções de instalação](#instrucoes-de-instalacao)
-- 📄 [Documentação da API](#documentação-da-api)
-- 🙌 [Créditos](#créditos)
+- 🛠️ [Ferramentas utilizadas](#%EF%B8%8F-ferramentas-utilizadas)
+- 📁 [Estrutura do Projeto](#-estrutura-do-projeto)
+- 🚀 [Instruções de instalação](#-instruções-de-instalação)
+- 📄 [Documentação da API](#-documentação-da-api)
+- 🙌 [Créditos](#-créditos)
 
 
 ## 🔍 Sobre
