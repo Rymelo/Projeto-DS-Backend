@@ -29,11 +29,6 @@ Essa é a segunda etapa do projeto de um ecommerce interativo, dessa vez estabel
 <a href="https://sequelize.org/" target="_blank">![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)</a>
 <a href="https://jwt.io/" target="_blank">![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)</a>
 
-
-</div>
-
-
-
 >  **Node.js** para fornecer a possibilidade de executar JS em um servidor</br>
 >  **Express.js** para criar rotas de api</br>
 >  **Dotenv** para criarmos configurações com mais facilidade e segurança</br>
@@ -41,6 +36,9 @@ Essa é a segunda etapa do projeto de um ecommerce interativo, dessa vez estabel
 >  **MySQL** para persistência de dados</br>
 >  **Sequelize** para termos mais produtividade ao lidar com o banco de dados </br>
 >  **JWT** para adicionar segurança e limitar o acesso nas rotas de API
+
+</div>
+
 
 ## 📁 Estrutura do projeto
 
