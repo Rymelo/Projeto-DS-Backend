@@ -1,29 +1,48 @@
-# Projeto API Digital Store
+<div align="center">
+  <h1>Projeto API Digital Store</h1>
+  <a href="https://rymelo.github.io/Projeto-DS-Frontend/" target="_blank"><img alt="Foto da página inicial" src="https://github.com/user-attachments/assets/afffdc20-78ab-41d3-b751-f515eb468990"></a>
 Este projeto foi desenvolvido para fins de avaliação e assimilação de conhecimento durante o curso de desenvolvimento web Geração Tech. 
+</div>
 
-## Índice
+## 📑 Índice
 
-- [Sobre](#sobre)
-- [Ferramentas utilizadas](#ferramentas-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instruções de instalação](#Instruções-de-instalação)
-- [Documentação da API](#documentação-da-api)
-- [Créditos](#créditos)
+- 🔍 [Sobre](#sobre)
+- 🛠️ [Ferramentas utilizadas](#ferramentas-utilizadas)
+- 📁 [Estrutura do Projeto](#estrutura-do-projeto)
+- 🚀 [Instruções de instalação](#instrucoes-de-instalacao)
+- 📄 [Documentação da API](#documentação-da-api)
+- 🙌 [Créditos](#créditos)
 
-## Sobre
-Essa é a segunda etapa do projeto de um ecommerce interativo, dessa vez estabelecendo as conexões à parte back-end do projeto, de forma a cumprir com os critérios da [documentação](#créditos) através da aplicação dos conhecimentos adquiridos.
-A primeira etapa (frontend) pode ser conferida [aqui](https://github.com/Rymelo/Projeto-DS-Frontend).
 
-## Ferramentas utilizadas
-- **Node.js** para fornecer a possibilidade de executar JS em um servidor
-- **Express.js** para criar rotas de api
-- **Dotenv** para criarmos configurações com mais facilidade e segurança
-- **Nodemon** para termos mais produtividade em nosso ambiente de desenvolvimento
-- **MySQL** para persistência de dados
-- **Sequelize** para termos mais produtividade ao lidar com o banco de dados 
-- **JWT** para adicionar segurança e limitar o acesso nas rotas de API
+## 🔍 Sobre
+Essa é a segunda etapa do projeto de um ecommerce interativo, dessa vez estabelecendo a parte back-end do projeto, de forma a cumprir com os critérios da [documentação](#créditos) através da aplicação dos conhecimentos adquiridos.</br></br>
+**A primeira etapa (frontend) pode ser conferida [aqui](https://github.com/Rymelo/Projeto-DS-Frontend).**
 
-## Estrutura do projeto
+## 🛠️ Ferramentas utilizadas
+<div align="center">
+  
+<a href="https://nodejs.org/pt-br/" target="_blank">![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)</a>
+<a href="https://expressjs.com/pt-br/" target="_blank">![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)</a>
+<a href="https://www.npmjs.com/package/dotenv" target="_blank">![Dotenv](https://img.shields.io/badge/Dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=black)</a>
+<a href="https://nodemon.io/" target="_blank">![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)</a>
+<a href="https://www.mysql.com/" target="_blank">![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)</a>
+<a href="https://sequelize.org/" target="_blank">![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)</a>
+<a href="https://jwt.io/" target="_blank">![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)</a>
+
+
+</div>
+
+
+
+>  **Node.js** para fornecer a possibilidade de executar JS em um servidor</br>
+>  **Express.js** para criar rotas de api</br>
+>  **Dotenv** para criarmos configurações com mais facilidade e segurança</br>
+>  **Nodemon** para termos mais produtividade em nosso ambiente de desenvolvimento</br>
+>  **MySQL** para persistência de dados</br>
+>  **Sequelize** para termos mais produtividade ao lidar com o banco de dados </br>
+>  **JWT** para adicionar segurança e limitar o acesso nas rotas de API
+
+## 📁 Estrutura do projeto
 
 
 <details>
@@ -48,7 +67,7 @@ project-root/
 
 </details>
 
-## Instruções de instalação
+## 🚀 Instruções de instalação
 <details>
   <summary><strong>Como executar o projeto</strong></summary>
 
@@ -105,7 +124,10 @@ project-root/
 
 <details>
   <summary><strong>Guia de uso da aplicação</strong></summary>
-  Na aplicação, todas as rotas exceto GET e CREATE de User utilizam JWT. Portanto, para o teste total da aplicação é necessário:
+  
+  </br>
+  
+  **Na aplicação, todas as rotas exceto GET e CREATE de User utilizam JWT. Portanto, para o teste total da aplicação é necessário:**
   
 1.  **Criar o usuário:**
     * Abra a ferramenta de teste de API e crie um http request do tipo post
@@ -141,17 +163,17 @@ project-root/
 
 </details>
 
-## Documentação da API
-A documentação foi feita no POSTMAN, com as requisições estabelecidas na documentação:
+## 📄 Documentação da API
+**A documentação foi feita no POSTMAN, com as requisições estabelecidas na documentação:**
   ```bash
   https://documenter.getpostman.com/view/46316809/2sB34ZqPQ6
   ```
 
-## Créditos
+## 🙌 Créditos
 
-### Geração Tech
+### 👨‍🏫 Geração Tech
 O [Geração Tech](https://geracaotech.iel-ce.org.br/) é um projeto do Instituto Euvaldo Lodi (IEL) e o Governo do Estado do Ceará por meio da Agência de Desenvolvimento do Estado do Ceará (ADECE) para capacitação de jovens na área da tecnologia. 
 A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com ênfase no protagonismo dos jovens no mercado da tecnologia e inovação.
 
-### Documentação
+### 📄 Documentação
 O projeto foi desenvolvido tendo como base a [documentação](https://github.com/digitalcollegebr/projeto-backend) disponibilizada pelo curso.
