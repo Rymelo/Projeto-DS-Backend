@@ -174,4 +174,4 @@ O [Geração Tech](https://geracaotech.iel-ce.org.br/) é um projeto do Institut
 A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com ênfase no protagonismo dos jovens no mercado da tecnologia e inovação.
 
 ### 📄 Documentação
-O projeto foi desenvolvido tendo como base a [documentação](https://github.com/digitalcollegebr/projeto-backend) disponibilizada pelo curso, em parceria com a Digital College
+O projeto foi desenvolvido tendo como base a [documentação](https://github.com/digitalcollegebr/projeto-backend) disponibilizada pelo curso, em parceria com a Digital College.
