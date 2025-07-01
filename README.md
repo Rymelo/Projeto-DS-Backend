@@ -15,7 +15,7 @@ Este projeto foi desenvolvido para fins de avaliação e assimilação de conhec
 
 
 ## 🔍 Sobre
-Essa é a segunda etapa do projeto de um ecommerce interativo, dessa vez estabelecendo a parte back-end do projeto, de forma a cumprir com os critérios da [documentação](#créditos) através da aplicação dos conhecimentos adquiridos.</br></br>
+Essa é a segunda etapa do projeto de um ecommerce interativo, dessa vez estabelecendo a parte back-end do projeto, de forma a cumprir com os critérios da [documentação](#-créditos) através da aplicação dos conhecimentos adquiridos.</br></br>
 **A primeira etapa (frontend) pode ser conferida [aqui](https://github.com/Rymelo/Projeto-DS-Frontend).**
 
 ## 🛠️ Ferramentas utilizadas
